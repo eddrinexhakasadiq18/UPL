@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "576049397752",
+    "project_id": "malnutrition-digital-assistant",
+    "storage_bucket": "malnutrition-digital-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576049397752:android:a62deab8a39725e26ce00d",
+        "android_client_info": {
+          "package_name": "com.example.mda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576049397752-ohe36oi6mcqhl1f854e301h04u2qpjd7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjo-8OaEe7AvlpATV7GJ0-kI0GPeYvuRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576049397752-ohe36oi6mcqhl1f854e301h04u2qpjd7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
