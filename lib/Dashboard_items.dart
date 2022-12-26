@@ -36,7 +36,7 @@ class DashboardItems extends StatelessWidget {
               Text(
                 title,
                 style: const TextStyle(
-                  fontSize: 21,
+                  fontSize: 20,
                   fontWeight: FontWeight.w600,
                 ),
               ),
