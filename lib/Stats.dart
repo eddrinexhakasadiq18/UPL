@@ -14,19 +14,17 @@ class Stats extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-return Scaffold(
+    return Scaffold(
         appBar: const CustomAppBar(titletext: "SETTINGS"),
         body: BackgroundWidget(
           Padding: const EdgeInsets.all(20),
           child: GridView(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2, crossAxisSpacing: 20, mainAxisSpacing: 20
-                ),
+                crossAxisCount: 2, crossAxisSpacing: 20, mainAxisSpacing: 20),
             children: [
               // here we imported the DashboardItems.dart
               DashboardItems(
-                imagePath: "images/dashboard/schedule.png",
+                imagePath: "assets/images/dashboard/schedule.png",
                 title: "Schedule",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -35,7 +33,7 @@ return Scaffold(
                 },
               ),
               DashboardItems(
-                imagePath: "images/dashboard/venue.png",
+                imagePath: "assets/images/dashboard/venue.png",
                 title: "Venues",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -44,7 +42,7 @@ return Scaffold(
                 },
               ),
               DashboardItems(
-                imagePath: "images/dashboard/history.jpg",
+                imagePath: "assets/images/dashboard/history.jpg",
                 title: "History",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -53,30 +51,30 @@ return Scaffold(
                 },
               ),
               DashboardItems(
-                imagePath: "images/dashboard/team.png",
+                imagePath: "assets/images/dashboard/team.png",
                 title: "Teams",
                 onTap: () {
-                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
+                  Navigator.of(context).push(MaterialPageRoute(builder: (_) {
                     return Teams();
                   }));
                 },
               ),
-              
+
               DashboardItems(
-                imagePath: "images/dashboard/highlights.png",
+                imagePath: "assets/images/dashboard/highlights.png",
                 title: "Highlights",
                 onTap: () {
-                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
+                  Navigator.of(context).push(MaterialPageRoute(builder: (_) {
                     return const Highlights();
                   }));
                 },
               ),
 
               DashboardItems(
-                imagePath: "images/dashboard/manager.jpg",
+                imagePath: "assets/images/dashboard/manager.jpg",
                 title: "Managers",
                 onTap: () {
-                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
+                  Navigator.of(context).push(MaterialPageRoute(builder: (_) {
                     return const Managers();
                   }));
                 },

@@ -13,7 +13,7 @@ class BackgroundWidget extends StatelessWidget {
       //code for the background image in More Page
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage("images/images/upl.jpeg"),
+          image: AssetImage("assets/images/images/upl.jpeg"),
           fit: BoxFit.cover,
         ),
       ),

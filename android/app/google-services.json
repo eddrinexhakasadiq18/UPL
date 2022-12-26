@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "576049397752",
-    "project_id": "malnutrition-digital-assistant",
-    "storage_bucket": "malnutrition-digital-assistant.appspot.com"
+    "project_number": "52125627399",
+    "firebase_url": "https://starttimes-premier-leageu-app-default-rtdb.firebaseio.com",
+    "project_id": "starttimes-premier-leageu-app",
+    "storage_bucket": "starttimes-premier-leageu-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:576049397752:android:a62deab8a39725e26ce00d",
+        "mobilesdk_app_id": "1:52125627399:android:5b64eed2cb5500edf0a6a2",
         "android_client_info": {
-          "package_name": "com.example.mda"
+          "package_name": "com.example.sportsapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "576049397752-ohe36oi6mcqhl1f854e301h04u2qpjd7.apps.googleusercontent.com",
+          "client_id": "52125627399-5ie58alm6onr9qfo9haheiaa704k4kdq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCjo-8OaEe7AvlpATV7GJ0-kI0GPeYvuRI"
+          "current_key": "AIzaSyAIyGcqOdFuZSNMRetPtwfrwMvitmqe8xc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "576049397752-ohe36oi6mcqhl1f854e301h04u2qpjd7.apps.googleusercontent.com",
+              "client_id": "52125627399-5ie58alm6onr9qfo9haheiaa704k4kdq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

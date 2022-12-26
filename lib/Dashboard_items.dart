@@ -5,17 +5,19 @@ class DashboardItems extends StatelessWidget {
   final String title;
   final VoidCallback onTap;
 
-  const DashboardItems({Key? key,
-  required this.imagePath,
-  required this.onTap,
-  required this.title
-  }) : super(key: key);
+  const DashboardItems(
+      {Key? key,
+      required this.imagePath,
+      required this.onTap,
+      required this.title})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: onTap,
       child: Container(
+        height: 200,
         decoration: const BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.only(
@@ -30,14 +32,16 @@ class DashboardItems extends StatelessWidget {
             children: [
               Image.asset(
                 imagePath,
-                width: 150,
-                height: 150,
+                width: 100,
+                height: 100,
               ),
-              Text(
-                title,
-                style: const TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w600,
+              Flexible(
+                child: Text(
+                  title,
+                  style: const TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
             ],

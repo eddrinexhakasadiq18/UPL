@@ -86,7 +86,7 @@ class _LoginDemoState extends State<LoginDemo> {
                 controller: passwordController,
               ),
             ),
-            FlatButton(
+            ElevatedButton(
               onPressed: () {
                 // ignore: todo
                 //TODO FORGOT PASSWORD SCREEN GOES HERE
@@ -101,7 +101,7 @@ class _LoginDemoState extends State<LoginDemo> {
               width: 250,
               decoration: BoxDecoration(
                   color: Colors.blue, borderRadius: BorderRadius.circular(20)),
-              child: FlatButton(
+              child: ElevatedButton(
                 onPressed: () {
                   signIn(emailController.text, passwordController.text);
                 },
@@ -120,7 +120,7 @@ class _LoginDemoState extends State<LoginDemo> {
               decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 117, 106, 72),
                   borderRadius: BorderRadius.circular(20)),
-              child: FlatButton(
+              child: ElevatedButton(
                 onPressed: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (_) => const Signup()));

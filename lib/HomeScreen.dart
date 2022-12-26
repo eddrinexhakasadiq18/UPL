@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.blueGrey,
                 image: const DecorationImage(
                   image: AssetImage(
-                    "images/images/stadium.jpg",
+                    "assets/images/images/stadium.jpg",
                       ),
                   fit: BoxFit.cover,
                   ),
