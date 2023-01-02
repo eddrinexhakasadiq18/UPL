@@ -1,7 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:sportsapp/HomeScreen.dart';
-import 'package:sportsapp/Settings.dart';
+import 'package:sportsapp/more.dart';
 import 'package:sportsapp/Star_UPL.dart';
 import 'package:sportsapp/Stats.dart';
 
@@ -19,7 +19,7 @@ class _MainScreenState extends State<MainScreen> {
     HomeScreen(),
     Star_UPL(),
     Stats(),
-    Settings(),
+    more(),
   ];
 
   void _onItemTapped(int index) {
@@ -51,8 +51,8 @@ class _MainScreenState extends State<MainScreen> {
             ),
             BottomNavigationBarItem(
               backgroundColor: Colors.cyan,
-              icon: Icon(Icons.settings),
-              label: "Settings",
+              icon: Icon(Icons.more_vert_outlined),
+              label: "More",
             ),
           ],
           currentIndex: _selectedIndex,
