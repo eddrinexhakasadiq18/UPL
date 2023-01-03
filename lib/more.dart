@@ -12,8 +12,11 @@ class more extends StatelessWidget {
         child: Column(
           // ignore: prefer_const_literals_to_create_immutables
           children: [
-            const ListTile(
-              shape: RoundedRectangleBorder(
+            ListTile(
+              onTap: () {
+                Navigator.pushNamed(context, "login");
+              },
+              shape: const RoundedRectangleBorder(
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(25),
                       topRight: Radius.circular(25),
@@ -22,21 +25,16 @@ class more extends StatelessWidget {
               tileColor: Colors.indigo,
               textColor: Colors.white,
               iconColor: Colors.white,
-              leading: Icon(Icons.light),
-              title: Text('Signin/ Create New Account'),
+              leading: const Icon(Icons.light),
+              title: const Text('Signin/ Create New Account'),
               //subtitle: Text('This is a subtitle'),
             ),
-
             const Divider(
               height: 50,
             ),
-            
           ],
         ),
       ),
-
-
-      
     );
   }
 }
