@@ -18,11 +18,12 @@ class more extends StatelessWidget {
                       topLeft: Radius.circular(25),
                       topRight: Radius.circular(25),
                       bottomRight: Radius.circular(10),
-                      bottomLeft: Radius.circular(10))),
+                      bottomLeft: Radius.circular(10))
+                      ),
               tileColor: Colors.indigo,
               textColor: Colors.white,
               iconColor: Colors.white,
-              leading: Icon(Icons.light),
+              leading: Icon(Icons.person_add),
               title: Text('Signin/ Create New Account'),
               //subtitle: Text('This is a subtitle'),
             ),
@@ -30,13 +31,84 @@ class more extends StatelessWidget {
             const Divider(
               height: 50,
             ),
-            
+
+           Padding(
+              padding: const EdgeInsets.only(top: 30, left: 17, right: 17, bottom: 17),
+              child: Container(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      "ABOUT",
+                      style: TextStyle(
+                        color: Colors.redAccent,
+                        fontSize: 17,
+                        fontWeight: FontWeight.bold,
+                        
+                      ),
+                    ), 
+
+             ListTile(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30)),
+              tileColor: Colors.green,
+              textColor: Colors.white,
+              //iconColor: Colors.white,
+              //leading: const Icon(Icons.light),
+              title: const Text('Premier League'),
+              //subtitle: const Text('This is a subtitle'),
+              ),
+
+              const Divider(
+              height: 50,
+            ),
+
+              
+             ListTile(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30)),
+              tileColor: Colors.green,
+              textColor: Colors.white,
+              //iconColor: Colors.white,
+              //leading: const Icon(Icons.light),
+              title: const Text('Transfers'),
+              //subtitle: const Text('This is a subtitle'),
+              ),
+
+              const Divider(
+              height: 50,
+            ),
+
+              
+             ListTile(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(30)),
+              tileColor: Colors.green,
+              textColor: Colors.white,
+              //iconColor: Colors.white,
+              //leading: const Icon(Icons.light),
+              title: const Text('Football Partners'),
+              //subtitle: const Text('This is a subtitle'),
+              ),
+
+              
+              
+              
+                  
           ],
         ),
       ),
 
-
       
+          
+          )
+          ]
+      )
+
+
+      )    
     );
+
   }
 }
