@@ -59,7 +59,7 @@ class _LoginDemoState extends State<LoginDemo> {
                     /*decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(50.0)),*/
-                    child: Image.asset("images/images/upl_logo.png")),
+                    child: Image.asset("assets/images/images/upl_logo.png")),
               ),
             ),
             Padding(
