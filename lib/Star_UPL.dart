@@ -16,12 +16,14 @@ class Star_UPL extends StatelessWidget {
      body: BackgroundWidget(
         Padding: const EdgeInsets.all(10),
         child: Scaffold(
-          body: Standings(),
-          
-
-           
-           
-      ),
-    ));
+          body: Standings(), 
+      
+ 
+   ),
+    )
+    
+    
+    
+    );
   }
 }

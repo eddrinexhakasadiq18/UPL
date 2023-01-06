@@ -19,7 +19,7 @@ class Venues extends StatelessWidget {
     return Scaffold(
         appBar: const CustomAppBar(titletext: "VENUES"),
         body: BackgroundWidget(
-          Padding: EdgeInsets.all(20),
+          Padding: const EdgeInsets.all(20),
           child: GridView(
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2, 
@@ -30,7 +30,7 @@ class Venues extends StatelessWidget {
             children: [
               // here we imported the DashboardItems.dart
               DashboardItems(
-                imagePath: "assets/images/venues/kitende.jpg",
+                imagePath: "images/venues/kitende.jpg",
                 title: "St Mary's Kitende",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -39,7 +39,7 @@ class Venues extends StatelessWidget {
                 },
               ),
               DashboardItems(
-                imagePath: "assets/images/venues/arua.jpg",
+                imagePath: "images/venues/arua.jpg",
                 title: "Phillip Omondi Stadium",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -49,7 +49,7 @@ class Venues extends StatelessWidget {
               ),
               
                DashboardItems(
-                imagePath: "assets/images/venues/kavumba.jpg",
+                imagePath: "images/venues/kavumba.jpg",
                 title: "Kavumba Stadium",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -58,7 +58,7 @@ class Venues extends StatelessWidget {
                 },
               ),
                DashboardItems(
-                imagePath: "assets/images/venues/lugogo.jpg",
+                imagePath: "images/venues/lugogo.jpg",
                 title: "Lugogo Arena Stadium",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -67,7 +67,7 @@ class Venues extends StatelessWidget {
                 },
               ),
                DashboardItems(
-                imagePath: "assets/images/venues/wankulukuku.jpg",
+                imagePath: "images/venues/wankulukuku.jpg",
                 title: "Wankulukuku Stadium",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
