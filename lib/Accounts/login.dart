@@ -48,7 +48,7 @@ class _LoginDemoState extends State<LoginDemo> {
       appBar: const CustomAppBar(titletext: "LOGIN"),
       body: BackgroundWidget(
         Padding: const EdgeInsets.all(20),
-        child: Column(
+        child: ListView(
           children: <Widget>[
             Padding(
               padding: const EdgeInsets.only(top: 60.0),

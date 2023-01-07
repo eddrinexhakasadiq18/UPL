@@ -15,11 +15,12 @@ class FixtureScreen extends StatelessWidget {
         appBar: AppBar(
           bottom: PreferredSize(
             //preferredSize: Size.fromHeight(100.0),
+            // ignore: sort_child_properties_last
             child: TabBar(
               isScrollable: true,
               unselectedLabelColor: Colors.white.withOpacity(0.3),
               indicatorColor: Colors.white,
-              tabs: [
+              tabs: const [
                 Tab(
                   child: Text("17 Oct"),
                 ),
@@ -40,7 +41,7 @@ class FixtureScreen extends StatelessWidget {
                 ),
               ],
             ),
-             preferredSize:  Size.fromHeight(20.0),
+             preferredSize: const Size.fromHeight(20.0),
             
             ),
         ),
@@ -54,7 +55,7 @@ class FixtureScreen extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
-                    children: [
+                    children: const [
                       UPL(),
                       Big_league(),
                       
@@ -65,7 +66,7 @@ class FixtureScreen extends StatelessWidget {
                    Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
-                    children: [
+                    children: const [
                       UPL(),
                       Big_league(),
                       
@@ -76,7 +77,7 @@ class FixtureScreen extends StatelessWidget {
                    Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
-                    children: [
+                    children: const [
                       //UPL(),
                       Big_league(),
                       
@@ -88,7 +89,7 @@ class FixtureScreen extends StatelessWidget {
                   Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
-                    children: [
+                    children: const [
                       UPL(),
                       Big_league(),
                       
@@ -99,7 +100,7 @@ class FixtureScreen extends StatelessWidget {
                   Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
-                    children: [
+                    children: const [
                       UPL(),
                       Big_league(),
                       
@@ -110,7 +111,7 @@ class FixtureScreen extends StatelessWidget {
                   Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
-                    children: [
+                    children: const [
                       UPL(),
                       //Big_league(),
                       

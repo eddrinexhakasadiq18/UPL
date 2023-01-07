@@ -33,8 +33,8 @@ class _SignupState extends State<Signup> {
         child: Center(
           child: Form(
             key: _formkey,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+            child: ListView(
+              //mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 const Padding(
                   padding: EdgeInsets.only(bottom: 20.0),
@@ -132,7 +132,7 @@ class _SignupState extends State<Signup> {
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                         primary: const Color.fromARGB(255, 160, 121, 3)),
-                    child: const Text("SIGN UP"),
+                    child: Text("SIGN UP"),
                     onPressed: validate,
                   ),
                 ),

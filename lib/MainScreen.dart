@@ -1,6 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:sportsapp/HomeScreen.dart';
+import 'package:sportsapp/main.dart';
 import 'package:sportsapp/more.dart';
 import 'package:sportsapp/Star_UPL.dart';
 import 'package:sportsapp/Stats.dart';
@@ -16,10 +17,11 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
 
   List<Widget> _widgetOptions = <Widget>[
-    HomeScreen(),
+     HomeScreen(),
     Star_UPL(),
     Stats(),
     more(),
+    
   ];
 
   void _onItemTapped(int index) {

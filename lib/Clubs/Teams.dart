@@ -45,7 +45,7 @@ class Teams extends StatelessWidget{
           ),
 
           TeamItems(
-                imagePath: "images/images/vipers.png",
+                imagePath: "images/vipers.png",
                 title: "VIPERS FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {

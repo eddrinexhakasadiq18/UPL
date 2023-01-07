@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        "login":(context) => Login(),
+        "login":(context) => const Login(),
       },
       title: 'UPL Live',
       debugShowCheckedModeBanner: false,
@@ -45,3 +45,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+

@@ -184,11 +184,11 @@ class HomeScreen extends StatelessWidget {
                   Container(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
+                      children: const [
                         Padding(
                           padding: EdgeInsets.only(top: 22),
                           child: 
-                          const Text(
+                          Text(
                             "Bull FC Vs URA",
                             style: TextStyle(
                               color: Colors.black,
@@ -200,8 +200,8 @@ class HomeScreen extends StatelessWidget {
                           SizedBox(
                             height: 5,
                           ),
-                          const Text(
-                            "16:00 | Starts in 45min",
+                          Text(
+                            "16:00 | Kyabazinga Stadium",
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 17,
@@ -239,7 +239,7 @@ class HomeScreen extends StatelessWidget {
                     Padding(
                       padding:const EdgeInsets.only(top: 25),
                       child: Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
+                       crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           const Text(
@@ -329,11 +329,10 @@ class HomeScreen extends StatelessWidget {
                          
                         ],
                       ),
-                      
-
-
 
                     ),
+
+
                      Padding(
                       padding:const EdgeInsets.only(top: 25),
                       child: Row(
@@ -427,12 +426,18 @@ class HomeScreen extends StatelessWidget {
                          
                         ],
                       ), 
-                    )
+                    ), 
+
+                    
+
+                     
                   ],
                 ),
               ),
               
-              )
+              ),
+
+              
           ],
         ),
       ),
