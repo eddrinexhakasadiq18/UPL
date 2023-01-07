@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class UPL extends StatelessWidget {
-  const UPL({Key? key}) : super(key: key);
+class UPL19 extends StatelessWidget {
+  const UPL19({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class UPL extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           const Text(
-                            "60'",
+                            "43'",
                             style: TextStyle(
                               color: Colors.amber,
                               fontSize: 17,
@@ -52,7 +52,7 @@ class UPL extends StatelessWidget {
                                   child: Row(
                                     children: [
                                       const Text(
-                                        "Arua Hill",
+                                        "URA",
                                         style: TextStyle(
                               color: Colors.black,
                               fontSize: 17,
@@ -63,7 +63,7 @@ class UPL extends StatelessWidget {
                                       Container(
                                         padding: const EdgeInsets.only(top: 5, right: 5),
                                         child: SvgPicture.asset(
-                            "assets/arua.svg",
+                            "assets/ura.svg",
                             height: 40,
                             width: 40,
                           ),
@@ -75,7 +75,7 @@ class UPL extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "2-0",
+                            "1-0",
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 20,
@@ -92,7 +92,7 @@ class UPL extends StatelessWidget {
                                   child: Row(
                                     children: [
                                       const Text(
-                                        "Busoga",
+                                        "Gaddafi",
                                         style: TextStyle(
                               color: Colors.black,
                               fontSize: 17,
@@ -103,7 +103,7 @@ class UPL extends StatelessWidget {
                                       Container(
                                         padding: const EdgeInsets.only(top: 5, right: 5),
                                         child: SvgPicture.asset(
-                            "assets/busoga.svg",
+                            "assets/gaddafi.svg",
                             height: 70,
                             width: 70,
                           ),
@@ -146,7 +146,7 @@ class UPL extends StatelessWidget {
                                   child: Row(
                                     children: [
                                       const Text(
-                                        "Onduparaka",
+                                        "KCCA",
                                         style: TextStyle(
                               color: Colors.black,
                               fontSize: 17,
@@ -157,7 +157,7 @@ class UPL extends StatelessWidget {
                                       Container(
                                         padding: const EdgeInsets.only(top: 5, right: 5),
                                         child: SvgPicture.asset(
-                            "assets/onduparaka.svg",
+                            "assets/kcca.svg",
                             height: 40,
                             width: 40,
                           ),
@@ -186,7 +186,7 @@ class UPL extends StatelessWidget {
                                   child: Row(
                                     children: [
                                       const Text(
-                                        "Gaddafi",
+                                        "Wakiso",
                                         style: TextStyle(
                               color: Colors.black,
                               fontSize: 17,
@@ -197,7 +197,7 @@ class UPL extends StatelessWidget {
                                       Container(
                                         padding: const EdgeInsets.only(top: 5, right: 5),
                                         child: SvgPicture.asset(
-                            "assets/gaddafi.svg",
+                            "assets/wakiso.svg",
                             height: 70,
                             width: 70,
                           ),
@@ -280,7 +280,7 @@ class UPL extends StatelessWidget {
                                   child: Row(
                                     children: [
                                       const Text(
-                                        "wakiso",
+                                        "Vipers",
                                         style:  TextStyle(
                               color: Colors.black,
                               fontSize: 17,
@@ -291,9 +291,9 @@ class UPL extends StatelessWidget {
                                       Container(
                                         padding: const EdgeInsets.only(top: 5, right: 5),
                                         child: SvgPicture.asset(
-                            "assets/wakiso.svg",
-                            height: 70,
-                            width: 70,
+                            "assets/Vipers1.svg",
+                            height: 40,
+                            width: 40,
                           ),
                                       )
                                     ],

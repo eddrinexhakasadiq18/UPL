@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class Big_league extends StatelessWidget {
-  const Big_league({Key? key}) : super(key: key);
+class Big19 extends StatelessWidget {
+  const Big19({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class Big_league extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "60'",
+                  "80'",
                   style: TextStyle(
                     color: Colors.amber,
                     fontSize: 17,
@@ -52,7 +52,7 @@ class Big_league extends StatelessWidget {
                         child: Row(
                           children: [
                             const Text(
-                              "Lugazi",
+                              "Ndejje",
                               style:  TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
@@ -62,7 +62,7 @@ class Big_league extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/lugazi.svg",
+                                "assets/ndejje.svg",
                                 height: 50,
                                 width: 50,
                               ),
@@ -74,7 +74,7 @@ class Big_league extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "2-0",
+                  "5-0",
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,
@@ -90,7 +90,7 @@ class Big_league extends StatelessWidget {
                         child: Row(
                           children: [
                             const Text(
-                              "Mbarara City",
+                              "Kyetume",
                               style:  TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
@@ -100,9 +100,9 @@ class Big_league extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/mbarara.svg",
-                                height: 50,
-                                width: 50,
+                                "assets/kyetume.svg",
+                                height: 40,
+                                width: 40,
                               ),
                             )
                           ],
@@ -142,7 +142,7 @@ class Big_league extends StatelessWidget {
                         child: Row(
                           children: [
                             const Text(
-                              "Kyetume",
+                              "Calvary",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
@@ -152,7 +152,7 @@ class Big_league extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/kyetume.svg",
+                                "assets/calvary.svg",
                                 height: 40,
                                 width: 40,
                               ),
@@ -180,7 +180,7 @@ class Big_league extends StatelessWidget {
                         child: Row(
                           children: [
                             const Text(
-                              "Police",
+                              "Booma",
                               style:  TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
@@ -190,9 +190,9 @@ class Big_league extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/police.svg",
-                                height: 70,
-                                width: 70,
+                                "assets/Booma.svg",
+                                height: 40,
+                                width: 40,
                               ),
                             )
                           ],
@@ -232,7 +232,7 @@ class Big_league extends StatelessWidget {
                         child: Row(
                           children: [
                             const Text(
-                              "Kataka",
+                              "Luwero",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
@@ -242,7 +242,7 @@ class Big_league extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/KATAKA.svg",
+                                "assets/LUWERO.svg",
                                 height: 40,
                                 width: 40,
                               ),
@@ -270,7 +270,7 @@ class Big_league extends StatelessWidget {
                         child: Row(
                           children: [
                             const Text(
-                              "Kaaro ",
+                              "Adjumani",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
@@ -280,9 +280,9 @@ class Big_league extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/KAARO.svg",
-                                height: 70,
-                                width: 70,
+                                "assets/ADJUMANI.svg",
+                                height: 40,
+                                width: 40,
                               ),
                             )
                           ],

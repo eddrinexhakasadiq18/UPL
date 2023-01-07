@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class Big_league extends StatelessWidget {
-  const Big_league({Key? key}) : super(key: key);
+class Big18 extends StatelessWidget {
+  const Big18({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -232,7 +232,7 @@ class Big_league extends StatelessWidget {
                         child: Row(
                           children: [
                             const Text(
-                              "Kataka",
+                              "NEC fc",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
@@ -242,7 +242,7 @@ class Big_league extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/KATAKA.svg",
+                                "assets/NEC.svg",
                                 height: 40,
                                 width: 40,
                               ),
@@ -270,7 +270,7 @@ class Big_league extends StatelessWidget {
                         child: Row(
                           children: [
                             const Text(
-                              "Kaaro ",
+                              "Soroti",
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 17,
@@ -280,9 +280,9 @@ class Big_league extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/KAARO.svg",
-                                height: 70,
-                                width: 70,
+                                "assets/soroti_city.svg",
+                                height: 40,
+                                width: 40,
                               ),
                             )
                           ],

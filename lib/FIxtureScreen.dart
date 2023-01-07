@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:sportsapp/Big_league.dart';
+import 'package:sportsapp/Matches/Big18.dart';
+import 'package:sportsapp/Matches/Big19.dart';
+import 'package:sportsapp/Matches/UPL19.dart';
 import 'package:sportsapp/premier.dart';
+
+import 'Matches/UPL18.dart';
 
 
 
@@ -67,8 +72,8 @@ class FixtureScreen extends StatelessWidget {
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
                     children: const [
-                      UPL(),
-                      Big_league(),
+                      UPL18(),
+                      Big18(),
                       
                     ],
                   ), 
@@ -78,8 +83,8 @@ class FixtureScreen extends StatelessWidget {
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
                     children: const [
-                      //UPL(),
-                      Big_league(),
+                      UPL19(),
+                      Big19(),
                       
                       
                     ],
