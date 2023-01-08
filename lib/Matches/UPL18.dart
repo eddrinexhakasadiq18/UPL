@@ -36,7 +36,7 @@ class UPL18 extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           const Text(
-                            "60'",
+                            "FT",
                             style: TextStyle(
                               color: Colors.amber,
                               fontSize: 17,
@@ -75,7 +75,7 @@ class UPL18 extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "2-0",
+                            "4-0",
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 20,
@@ -130,7 +130,7 @@ class UPL18 extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           const Text(
-                            "16:00",
+                            "FT",
                             style:  TextStyle(
                               color: Colors.amber,
                               fontSize: 17,
@@ -169,7 +169,7 @@ class UPL18 extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "-",
+                            "0-0",
                             style:  TextStyle(
                               color: Colors.black,
                               fontSize: 20,
@@ -224,7 +224,7 @@ class UPL18 extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           const Text(
-                            "16:00",
+                            "PP",
                             style:  TextStyle(
                               color: Colors.amber,
                               fontSize: 17,

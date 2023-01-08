@@ -36,7 +36,7 @@ class Big18 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "60'",
+                  "FT",
                   style: TextStyle(
                     color: Colors.amber,
                     fontSize: 17,
@@ -74,7 +74,7 @@ class Big18 extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "2-0",
+                  "1-0",
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,
@@ -126,7 +126,7 @@ class Big18 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "16:00",
+                  "FT",
                   style: TextStyle(
                     color: Colors.amber,
                     fontSize: 17,
@@ -164,7 +164,7 @@ class Big18 extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "-",
+                  "3-1",
                   style:  TextStyle(
                     color: Colors.black,
                     fontSize: 20,
@@ -216,7 +216,7 @@ class Big18 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "16:00",
+                  "FT",
                   style: TextStyle(
                     color: Colors.amber,
                     fontSize: 17,
@@ -254,7 +254,7 @@ class Big18 extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "-",
+                  "2-1",
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,

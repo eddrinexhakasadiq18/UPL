@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:sportsapp/Accounts/signup.dart';
 import 'package:sportsapp/Background_widget.dart';
-import 'package:sportsapp/Custom_app_Bar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:sportsapp/HomeScreen.dart';
 import 'package:sportsapp/MainScreen.dart';
 
 void main() {
@@ -45,7 +45,7 @@ class _LoginDemoState extends State<LoginDemo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomAppBar(titletext: "LOGIN"),
+      //appBar: const CustomAppBar(titletext: "LOGIN"),
       body: BackgroundWidget(
         Padding: const EdgeInsets.all(20),
         child: ListView(
@@ -86,24 +86,48 @@ class _LoginDemoState extends State<LoginDemo> {
                 controller: passwordController,
               ),
             ),
+
+             const SizedBox(
+              height: 10,
+            ),
+
             ElevatedButton(
               onPressed: () {
                 // ignore: todo
                 //TODO FORGOT PASSWORD SCREEN GOES HERE
               },
+              
               child: const Text(
                 'Forgot Password',
-                style: TextStyle(color: Colors.blue, fontSize: 15),
+                style: TextStyle(color: Color.fromARGB(255, 194, 197, 16), fontSize: 15),
               ),
             ),
+
+             const SizedBox(
+              height: 20,
+            ),
+
             Container(
               height: 50,
               width: 250,
               decoration: BoxDecoration(
                   color: Colors.blue, borderRadius: BorderRadius.circular(20)),
+              
+              // child: ElevatedButton(
+              //   onPressed: () {
+              //     signIn(emailController.text, passwordController.text);
+              //   },
+              //   child: const Text(
+              //     'Login',
+              //     style: TextStyle(color: Colors.white, fontSize: 25),
+                  
+              //   ),
+              // ),
+
               child: ElevatedButton(
                 onPressed: () {
-                  signIn(emailController.text, passwordController.text);
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => const MainScreen()));
                 },
                 child: const Text(
                   'Login',
@@ -111,9 +135,11 @@ class _LoginDemoState extends State<LoginDemo> {
                 ),
               ),
             ),
+
             const SizedBox(
-              height: 60,
+              height: 40,
             ),
+
             Container(
               height: 50,
               width: 250,

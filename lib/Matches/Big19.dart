@@ -126,7 +126,7 @@ class Big19 extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "16:00",
+                  "15:00",
                   style: TextStyle(
                     color: Colors.amber,
                     fontSize: 17,
@@ -242,9 +242,9 @@ class Big19 extends StatelessWidget {
                             Container(
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
-                                "assets/LUWERO.svg",
-                                height: 40,
-                                width: 40,
+                                "assets/LUWEERO.svg",
+                                height: 50,
+                                width: 50,
                               ),
                             )
                           ],

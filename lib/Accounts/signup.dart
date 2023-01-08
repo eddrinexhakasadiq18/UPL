@@ -4,6 +4,8 @@ import 'package:passwordfield/passwordfield.dart';
 import 'package:sportsapp/Accounts/login.dart';
 import 'package:sportsapp/Background_widget.dart';
 import 'package:sportsapp/Custom_app_Bar.dart';
+import 'package:sportsapp/HomeScreen.dart';
+import 'package:sportsapp/MainScreen.dart';
 
 class Signup extends StatefulWidget {
   const Signup({Key? key}) : super(key: key);
@@ -130,11 +132,15 @@ class _SignupState extends State<Signup> {
                 Padding(
                   padding: const EdgeInsets.only(bottom: 20.0),
                   child: ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                        primary: const Color.fromARGB(255, 160, 121, 3)),
-                    child: Text("SIGN UP"),
-                    onPressed: validate,
-                  ),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (_) => const Login()));
+                },
+                child: const Text(
+                  'SignUp',
+                  style: TextStyle(color: Colors.white, fontSize: 10),
+                ),
+              ),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(bottom: 5.0),
@@ -149,10 +155,9 @@ class _SignupState extends State<Signup> {
                       text: "Login",
                       recognizer: TapGestureRecognizer()
                         ..onTap = () async {
-                          Navigator.pushNamed(
+                          Navigator.push(
                             context,
-                            "login",
-                          );
+                             MaterialPageRoute(builder: (_) => const Login()));
                         },
                     ),
                   ])),

@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
           splashIconSize: 300,
           backgroundColor: const Color.fromARGB(255, 247, 208, 125),
           splashTransition: SplashTransition.fadeTransition,
-          nextScreen: const MainScreen()),
+          nextScreen: const Login()),
     );
   }
 }

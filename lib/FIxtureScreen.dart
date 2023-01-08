@@ -27,22 +27,22 @@ class FixtureScreen extends StatelessWidget {
               indicatorColor: Colors.white,
               tabs: const [
                 Tab(
-                  child: Text("17 Oct"),
+                  child: Text("Mon"),
                 ),
                 Tab(
-                  child: Text("18 Oct"),
+                  child: Text("Tue"),
                 ),
                 Tab(
                   child: Text("Today"),
                 ),
                 Tab(
-                  child: Text("20 Oct"),
+                  child: Text("Thurs"),
                 ),
                 Tab(
-                  child: Text("21 Oct"),
+                  child: Text("Fri"),
                 ),
                 Tab(
-                  child: Text("22 Oct"),
+                  child: Text("Sat"),
                 ),
               ],
             ),
@@ -56,7 +56,7 @@ class FixtureScreen extends StatelessWidget {
             height: 1500,
             child: TabBarView(
               children: [
-                // this shows matches for 17 oct
+                // this shows matches for Mon
                 Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
@@ -67,7 +67,7 @@ class FixtureScreen extends StatelessWidget {
                     ],
                   ), 
                   ),
-                  // this shows matches for 18 oct
+                  // this shows matches for Tue
                    Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
@@ -90,7 +90,7 @@ class FixtureScreen extends StatelessWidget {
                     ],
                   ), 
                   ),
-                  // this shows matches for 20 oct
+                  // this shows matches for Thurs
                   Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
@@ -101,7 +101,7 @@ class FixtureScreen extends StatelessWidget {
                     ],
                   ), 
                   ),
-                  // this shows matches for 21 oct
+                  // this shows matches for Fri
                   Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
@@ -112,7 +112,7 @@ class FixtureScreen extends StatelessWidget {
                     ],
                   ), 
                   ),
-                  // this shows matches for 22 oct
+                  // this shows matches for Sat
                   Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
