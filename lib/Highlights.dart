@@ -21,5 +21,3 @@ class Highlights extends StatelessWidget {
   }
 }
 
-
-
