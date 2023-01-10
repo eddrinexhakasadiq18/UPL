@@ -8,7 +8,7 @@ import Foundation
 import firebase_auth
 import firebase_core
 import firebase_database
-import package_info_plus
+import package_info_plus_macos
 import path_provider_macos
 import sentry_flutter
 import sqflite

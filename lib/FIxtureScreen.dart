@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:sportsapp/Big_league.dart';
 import 'package:sportsapp/Matches/Big18.dart';
 import 'package:sportsapp/Matches/Big19.dart';
+import 'package:sportsapp/Matches/Big20.dart';
 import 'package:sportsapp/Matches/UPL19.dart';
+import 'package:sportsapp/Matches/UPL20.dart';
 import 'package:sportsapp/premier.dart';
 
 import 'Matches/UPL18.dart';
@@ -15,7 +17,7 @@ class FixtureScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 6,
+      length: 9,
       child: Scaffold(
         appBar: AppBar(
           bottom: PreferredSize(
@@ -27,23 +29,33 @@ class FixtureScreen extends StatelessWidget {
               indicatorColor: Colors.white,
               tabs: const [
                 Tab(
-                  child: Text("Mon"),
+                  child: Text("Mon 17"),
                 ),
                 Tab(
-                  child: Text("Tue"),
+                  child: Text("Tue 18"),
                 ),
                 Tab(
                   child: Text("Today"),
                 ),
                 Tab(
-                  child: Text("Thurs"),
+                  child: Text("Thurs 20"),
                 ),
                 Tab(
-                  child: Text("Fri"),
+                  child: Text("Fri 21"),
                 ),
                 Tab(
-                  child: Text("Sat"),
+                  child: Text("Sat 22"),
                 ),
+                Tab(
+                  child: Text("Sun 23"),
+                ),
+                Tab(
+                  child: Text("Mon 24"),
+                ),
+                Tab(
+                  child: Text("Tue 25"),
+                ),
+                
               ],
             ),
              preferredSize: const Size.fromHeight(20.0),
@@ -95,8 +107,8 @@ class FixtureScreen extends StatelessWidget {
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
                     children: const [
-                      UPL(),
-                      Big_league(),
+                      UPL20(),
+                      Big20(),
                       
                     ],
                   ), 
@@ -119,6 +131,39 @@ class FixtureScreen extends StatelessWidget {
                     children: const [
                       UPL(),
                       //Big_league(),
+                      
+                    ],
+                  ), 
+                  ),
+                  // this shows matches for Sun
+                  Padding(
+                  padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
+                  child: Column(
+                    children: const [
+                      UPL(),
+                      Big_league(),
+                      
+                    ],
+                  ), 
+                  ),
+                  // this shows matches for mon
+                  Padding(
+                  padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
+                  child: Column(
+                    children: const [
+                      UPL(),
+                      Big_league(),
+                      
+                    ],
+                  ), 
+                  ),
+                  // this shows matches for tue
+                  Padding(
+                  padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
+                  child: Column(
+                    children: const [
+                      UPL(),
+                      Big_league(),
                       
                     ],
                   ), 
