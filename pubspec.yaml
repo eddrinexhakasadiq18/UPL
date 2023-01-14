@@ -51,10 +51,12 @@ dependencies:
   stacked: ^3.0.0
   sticky_headers: ^0.3.0+2
   firebase_core: ^2.1.1
-  flutter_youtube: ^2.0.0+1
-  youtube_player_iframe: ^4.0.1
   cached_network_image: ^3.1.0
-  http: ^0.13.3
+  dependencies:
+  url_launcher: ^5.7.10
+
+ 
+  
 
 
 dev_dependencies:

@@ -33,7 +33,7 @@ class Teams extends StatelessWidget{
              child: ListView( 
               children: [
              TeamItems(
-                imagePath: "images/images/bull.png",
+                imagePath: "assets/images/images/bull.png",
                 title: "BULL FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -45,7 +45,7 @@ class Teams extends StatelessWidget{
           ),
 
           TeamItems(
-                imagePath: "images/images/vipers.png",
+                imagePath: "assets/images/images/vipers.png",
                 title: "VIPERS FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -56,7 +56,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/arua.png",
+                imagePath: "assets/images/images/arua.png",
                 title: "ARUA HILL FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -67,7 +67,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/black.png",
+                imagePath: "assets/images/images/black.png",
                 title: "BLACK POWERS FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -78,7 +78,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/busoga.png",
+                imagePath: "assets/images/images/busoga.png",
                 title: "BUSOGA UNITED FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -89,7 +89,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/express.png",
+                imagePath: "assets/images/images/express.png",
                 title: "EXPRESS FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -100,7 +100,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/gaddafi.jpg",
+                imagePath: "assets/images/images/gaddafi.jpg",
                 title: "GADDAFI FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -111,7 +111,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/kcca.jpg",
+                imagePath: "assets/images/images/kcca.jpg",
                 title: "KCCA FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -122,7 +122,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/maroons.jpg",
+                imagePath: "assets/images/images/maroons.jpg",
                 title: "MAROONS FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -133,7 +133,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/onduparaka.png",
+                imagePath: "assets/images/images/onduparaka.png",
                 title: "ONDUPARAKA FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -144,7 +144,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/ura.png",
+                imagePath: "assets/images/images/ura.png",
                 title: "URA FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -155,8 +155,9 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/villa.png",
+                imagePath: "assets/images/images/villa.png",
                 title: "SC VILLA FC",
+                
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
                     return const Villa();
@@ -166,7 +167,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/wakiso.jpg",
+                imagePath: "assets/images/images/wakiso.jpg",
                 title: "WAKISO GIANTS FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -177,7 +178,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
                    TeamItems(
-                imagePath: "images/images/solito.jpg",
+                imagePath: "assets/images/images/solito.jpg",
                 title: " BRIGHT STARS FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
@@ -188,7 +189,7 @@ class Teams extends StatelessWidget{
                 },              
           ),
           TeamItems(
-                imagePath: "images/images/updf.png",
+                imagePath: "assets/images/images/updf.png",
                 title: "UPDF FC",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
