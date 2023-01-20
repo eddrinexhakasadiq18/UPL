@@ -36,7 +36,7 @@ class Big_league extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  "FT'",
+                  "FT",
                   style: TextStyle(
                     color: Colors.amber,
                     fontSize: 17,
@@ -74,7 +74,7 @@ class Big_league extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "2-0",
+                  "3-0",
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,
@@ -254,7 +254,7 @@ class Big_league extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "4-3",
+                  "3-1",
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,
@@ -281,8 +281,8 @@ class Big_league extends StatelessWidget {
                               padding: const EdgeInsets.only(top: 5, right: 5),
                               child: SvgPicture.asset(
                                 "assets/KAARO.svg",
-                                height: 70,
-                                width: 70,
+                                height: 40,
+                                width: 40,
                               ),
                             )
                           ],

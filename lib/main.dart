@@ -46,7 +46,7 @@ class _MyAppState extends State<MyApp> {
           splashIconSize: 300,
           backgroundColor: const Color.fromARGB(255, 247, 208, 125),
           splashTransition: SplashTransition.fadeTransition,
-          nextScreen: const MainScreen()),
+          nextScreen:    MainScreen()),
     );
   }
 }

@@ -75,7 +75,7 @@ class UPL extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "2-0",
+                            "1-4",
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 20,
@@ -169,7 +169,7 @@ class UPL extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "3-1",
+                            "2-1",
                             style:  TextStyle(
                               color: Colors.black,
                               fontSize: 20,
@@ -263,7 +263,7 @@ class UPL extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "1-2",
+                            "5-1",
                             style:  TextStyle(
                               color: Colors.black,
                               fontSize: 20,

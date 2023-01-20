@@ -64,8 +64,8 @@ class UPL19 extends StatelessWidget {
                                         padding: const EdgeInsets.only(top: 5, right: 5),
                                         child: SvgPicture.asset(
                             "assets/ura.svg",
-                            height: 40,
-                            width: 40,
+                            height: 55,
+                            width: 55,
                           ),
                                       )
                                     ],
@@ -169,7 +169,7 @@ class UPL19 extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "-",
+                            "Vs",
                             style:  TextStyle(
                               color: Colors.black,
                               fontSize: 20,
@@ -198,8 +198,8 @@ class UPL19 extends StatelessWidget {
                                         padding: const EdgeInsets.only(top: 5, right: 5),
                                         child: SvgPicture.asset(
                             "assets/wakiso.svg",
-                            height: 70,
-                            width: 70,
+                            height: 55,
+                            width: 55,
                           ),
                                       )
                                     ],
@@ -263,7 +263,7 @@ class UPL19 extends StatelessWidget {
                             ),
                           ),
                           const Text(
-                            "-",
+                            "Vs",
                             style:  TextStyle(
                               color: Colors.black,
                               fontSize: 20,
@@ -292,6 +292,101 @@ class UPL19 extends StatelessWidget {
                                         padding: const EdgeInsets.only(top: 5, right: 5),
                                         child: SvgPicture.asset(
                             "assets/Vipers1.svg",
+                            height: 40,
+                            width: 40,
+                          ),
+                                      )
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          const Icon(
+                            Icons.notifications_none_rounded,
+                            size: 26,
+                            color: Colors.black,
+                          )
+                         
+                        ],
+                      ), 
+                    ),
+
+                    Padding(
+                      padding:const EdgeInsets.only(top: 25),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          const Text(
+                            "16:00",
+                            style:  TextStyle(
+                              color: Colors.amber,
+                              fontSize: 17,
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
+                          Container(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  child: Row(
+                                    children: [
+                                      const Text(
+                                        "Busoga",
+                                        style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 17,
+                              fontWeight: FontWeight.w600,
+                            ),
+
+                                      ),
+                                      Container(
+                                        padding: const EdgeInsets.only(top: 5, right: 5),
+                                        child: SvgPicture.asset(
+                            "assets/busoga.svg",
+                            height: 60,
+                            width: 60,
+                          ),
+                                      )
+                                    ],
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          const Text(
+                            "Vs",
+                            style:  TextStyle(
+                              color: Colors.black,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+
+                          ),
+                          Container(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  child: Row(
+                                    children: [
+                                      const Text(
+                                        "UPDF",
+                                        style:  TextStyle(
+                              color: Colors.black,
+                              fontSize: 17,
+                              fontWeight: FontWeight.w600,
+                            ),
+
+                                      ),
+                                      Container(
+                                        padding: const EdgeInsets.only(top: 5, right: 5),
+                                        child: SvgPicture.asset(
+                            "assets/updf.svg",
                             height: 40,
                             width: 40,
                           ),

@@ -74,7 +74,7 @@ class Big19 extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "5-0",
+                  "3-1",
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 20,

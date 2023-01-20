@@ -32,10 +32,10 @@ class FixtureScreen extends StatelessWidget {
                   child: Text("Mon 17"),
                 ),
                 Tab(
-                  child: Text("Tue 18"),
+                  child: Text("Today"),
                 ),
                 Tab(
-                  child: Text("Today"),
+                  child: Text("Wed 19"),
                 ),
                 Tab(
                   child: Text("Thurs 20"),
@@ -49,12 +49,7 @@ class FixtureScreen extends StatelessWidget {
                 Tab(
                   child: Text("Sun 23"),
                 ),
-                Tab(
-                  child: Text("Mon 24"),
-                ),
-                Tab(
-                  child: Text("Tue 25"),
-                ),
+              
                 
               ],
             ),
@@ -79,24 +74,25 @@ class FixtureScreen extends StatelessWidget {
                     ],
                   ), 
                   ),
-                  // this shows matches for Tue
-                   Padding(
-                  padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
-                  child: Column(
-                    children: const [
-                      UPL18(),
-                      Big18(),
-                      
-                    ],
-                  ), 
-                  ),
                   // this shows matches for today
                    Padding(
                   padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
                   child: Column(
                     children: const [
+                      
                       UPL19(),
                       Big19(),
+                      
+                    ],
+                  ), 
+                  ),
+                  // this shows matches for wed
+                   Padding(
+                  padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
+                  child: Column(
+                    children: const [
+                      UPL18(),
+                      Big18(),                      
                       
                       
                     ],
@@ -146,28 +142,7 @@ class FixtureScreen extends StatelessWidget {
                     ],
                   ), 
                   ),
-                  // this shows matches for mon
-                  Padding(
-                  padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
-                  child: Column(
-                    children: const [
-                      UPL(),
-                      Big_league(),
-                      
-                    ],
-                  ), 
-                  ),
-                  // this shows matches for tue
-                  Padding(
-                  padding: const EdgeInsets.only(left: 13, right: 13, bottom: 13, top: 25),
-                  child: Column(
-                    children: const [
-                      UPL(),
-                      Big_league(),
-                      
-                    ],
-                  ), 
-                  ),
+                 
               ] 
             ),
           ),
