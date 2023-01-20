@@ -43,7 +43,7 @@ class Stats extends StatelessWidget {
               ),
               DashboardItems(
                 imagePath: "assets/images/dashboard/history.jpg",
-                title: "History",
+                title: "News",
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
                     return const History();
